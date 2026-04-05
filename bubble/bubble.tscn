@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dw8ldgpfsw6k5"]
+
+[ext_resource type="Script" uid="uid://bceagn6t4yji" path="res://bubble/bubble.gd" id="1_2gnhd"]
+[ext_resource type="Texture2D" uid="uid://5o6w1wts83ha" path="res://bubble/bubble.png" id="2_s8ch0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bvbpt"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sbuxj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fko6b"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vwyp8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g8pgd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ahoyb"]
+
+[node name="Bubble" type="Button" unique_id=1981610153]
+offset_left = -108.0
+offset_top = -108.0
+offset_right = 108.0
+offset_bottom = 108.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_styles/normal = SubResource("StyleBoxEmpty_bvbpt")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_sbuxj")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_fko6b")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_vwyp8")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_g8pgd")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ahoyb")
+script = ExtResource("1_2gnhd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1399426323]
+position = Vector2(108, 108)
+texture = ExtResource("2_s8ch0")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
