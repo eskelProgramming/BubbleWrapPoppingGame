@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="BubbleWrapPoppingGame"
-run/main_scene="uid://jp3bgu1raxvd"
+run/main_scene="uid://bws5rem2cr7w7"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+LevelManager="*uid://cllfg8651okwc"
+PopManager="*uid://bhdn5dritdhfl"
 
 [display]
 
