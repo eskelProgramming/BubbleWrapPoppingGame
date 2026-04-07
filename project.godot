@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 LevelManager="*uid://cllfg8651okwc"
 PopManager="*uid://bhdn5dritdhfl"
+ScoreManager="*uid://bily8mb8y2c03"
 
 [display]
 
