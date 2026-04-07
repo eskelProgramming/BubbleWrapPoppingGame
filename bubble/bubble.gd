@@ -2,8 +2,18 @@ class_name Bubble
 extends Button
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
-@onready var audio_stream_player_2d: AudioStreamPlayer2D = $AudioStreamPlayer2D
+@onready var pop: AudioStreamPlayer2D = $pop
+@onready var failed_pop: AudioStreamPlayer2D = $failed_pop
 
+
+func check_pop():
+	return randf() <= PopManager.pop_chance
+	
 func _on_pressed() -> void:
-	animated_sprite_2d.play("popped")
-	audio_stream_player_2d.play()
+	if check_pop(): 
+		animated_sprite_2d.play("popped")
+		pop.play()
+	else:
+		animated_sprite_2d.play("failed")
+		failed_pop.play()
+	disabled = true

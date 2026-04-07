@@ -1,3 +1,3 @@
 extends Node
 
-var popped_bubble: Bubble
+var pop_chance: float = 1
