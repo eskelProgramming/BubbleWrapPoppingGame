@@ -6,7 +6,7 @@
 
 [node name="small_sheet" type="Node2D" unique_id=2040784434]
 script = ExtResource("1_d7o33")
-pop_chance = 0.25
+pop_chance = 0.5
 total_bubbles = 50
 
 [node name="SmallSheet" type="Sprite2D" parent="." unique_id=548900089]

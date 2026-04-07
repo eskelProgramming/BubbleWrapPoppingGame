@@ -16,3 +16,4 @@ func _on_pressed() -> void:
 	else:
 		animated_sprite_2d.play("failed")
 		failed_pop.play()
+	disabled = true
