@@ -6,11 +6,13 @@ var num_popped: int
 var num_good_pops: int
 
 func pop_bonus() -> float:
-	var percent_popped = num_good_pops / sheet_bubbles
+	var percent_popped = 1.0 * num_good_pops / sheet_bubbles
 	if percent_popped == 1:
 		return 2.0
 	elif percent_popped >= .75:
 		return 1.5
+	elif percent_popped >= .25:
+		return 1
 	else:
 		return .5
 
