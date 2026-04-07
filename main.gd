@@ -17,3 +17,4 @@ func _ready() -> void:
 	LevelManager.main_scene = _2d_scene
 	LevelManager.levels = available_levels
 	LevelManager.main_menu = main_menu
+	seed(12345)
