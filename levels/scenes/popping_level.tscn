@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dphoayjllgxdv" path="res://levels/scripts/level.gd" id="1_bd1oo"]
 [ext_resource type="PackedScene" uid="uid://bvv7qs8yymlsj" path="res://bubble_sheets/scenes/mini_sheet.tscn" id="2_bd1oo"]
 [ext_resource type="PackedScene" uid="uid://btijwy1i0iyfg" path="res://ui/scenes/score_ui.tscn" id="3_ucvu1"]
+[ext_resource type="Script" uid="uid://tufhfbl2x4cx" path="res://ui/scripts/score_ui.gd" id="4_c2s5x"]
 
 [node name="popping_level" type="Node2D" unique_id=625673610]
 script = ExtResource("1_bd1oo")
@@ -20,4 +21,5 @@ offset_left = -1440.0
 offset_top = -624.0
 offset_right = -1440.0
 offset_bottom = -624.0
+script = ExtResource("4_c2s5x")
 metadata/_edit_use_anchors_ = true

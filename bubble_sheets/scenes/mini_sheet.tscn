@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cnoxe5tj4l4b5" path="res://bubble_sheets/scripts/sheet.gd" id="1_a6e3n"]
 [ext_resource type="Texture2D" uid="uid://civ6x5evxhn3o" path="res://bubble_sheets/assets/mini_sheet.png" id="2_b1xci"]
-[ext_resource type="PackedScene" uid="uid://dw8ldgpfsw6k5" path="res://bubble/bubble.tscn" id="3_a6e3n"]
+[ext_resource type="PackedScene" uid="uid://dw8ldgpfsw6k5" path="res://bubble/scenes/bubble.tscn" id="3_a6e3n"]
 
 [node name="mini_sheet" type="Node2D" unique_id=1334067839]
 script = ExtResource("1_a6e3n")
