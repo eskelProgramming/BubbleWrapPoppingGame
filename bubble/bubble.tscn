@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://bceagn6t4yji" path="res://bubble/bubble.gd" id="1_2gnhd"]
 [ext_resource type="Texture2D" uid="uid://5o6w1wts83ha" path="res://bubble/bubble.png" id="2_s8ch0"]
 [ext_resource type="Texture2D" uid="uid://btophy5omi5ad" path="res://bubble/popped_bubble.png" id="3_s8ch0"]
+[ext_resource type="AudioStream" uid="uid://bfe1hdvvrg4in" path="res://sounds/bubble_pop_sound.mp3" id="4_bvbpt"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bvbpt"]
 
@@ -52,5 +53,8 @@ script = ExtResource("1_2gnhd")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1010313669]
 position = Vector2(108, 108)
 sprite_frames = SubResource("SpriteFrames_bvbpt")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=505955259]
+stream = ExtResource("4_bvbpt")
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]
