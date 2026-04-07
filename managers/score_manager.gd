@@ -12,7 +12,7 @@ func calc_pop_score():
 	print("score %s" % score)
 
 func calc_views():
-	views = total_score * max_combo * PopManager.pop_bonus() / 10.0
+	views = total_score * max_combo * PopManager.pop_bonus() / 5.0
 	print("max_combo %s" % max_combo)
 	print("total_score %s" % total_score)
 	print("views %s" % views)

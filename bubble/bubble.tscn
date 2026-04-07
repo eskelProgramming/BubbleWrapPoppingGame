@@ -7,7 +7,7 @@
 [ext_resource type="AudioStream" uid="uid://bfe1hdvvrg4in" path="res://sounds/bubble_pop_sound.mp3" id="4_bvbpt"]
 [ext_resource type="AudioStream" uid="uid://byor6gdfqdvnn" path="res://sounds/failed_pop_sound.mp3" id="6_fko6b"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bvbpt"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gcua0"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sbuxj"]
 
@@ -52,7 +52,7 @@ offset_top = -108.0
 offset_right = 108.0
 offset_bottom = 108.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
-theme_override_styles/normal = SubResource("StyleBoxEmpty_bvbpt")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gcua0")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_sbuxj")
 theme_override_styles/hover = SubResource("StyleBoxEmpty_fko6b")
 theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_vwyp8")
@@ -61,6 +61,7 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_ahoyb")
 script = ExtResource("1_2gnhd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1010313669]
+texture_filter = 1
 position = Vector2(108, 108)
 sprite_frames = SubResource("SpriteFrames_bvbpt")
 autoplay = "default"

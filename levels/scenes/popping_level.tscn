@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://jp3bgu1raxvd"]
 
 [ext_resource type="Script" uid="uid://dphoayjllgxdv" path="res://levels/scripts/level.gd" id="1_bd1oo"]
-[ext_resource type="PackedScene" uid="uid://fb2epq5mm2li" path="res://bubble_sheets/scenes/small_sheet.tscn" id="2_ucvu1"]
+[ext_resource type="PackedScene" uid="uid://bvv7qs8yymlsj" path="res://bubble_sheets/scenes/mini_sheet.tscn" id="2_bd1oo"]
 
 [node name="popping_level" type="Node2D" unique_id=625673610]
 script = ExtResource("1_bd1oo")
@@ -10,5 +10,5 @@ script = ExtResource("1_bd1oo")
 position = Vector2(704, 520)
 zoom = Vector2(-0.405, -0.405)
 
-[node name="small_sheet" parent="." unique_id=2040784434 instance=ExtResource("2_ucvu1")]
-position = Vector2(720, 536)
+[node name="mini_sheet" parent="." unique_id=1334067839 instance=ExtResource("2_bd1oo")]
+position = Vector2(208, 232)
