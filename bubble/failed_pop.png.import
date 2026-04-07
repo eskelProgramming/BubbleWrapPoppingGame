@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blju3ois63lsy"
-path="res://.godot/imported/small_sheet.png-1689ebc66045626663d43c3f66d30ffd.ctex"
+uid="uid://cx0t86e7shwrt"
+path="res://.godot/imported/failed_pop.png-ff73f940b0eaa09485c7e9e12d44e18a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bubble_sheets/small_sheet.png"
-dest_files=["res://.godot/imported/small_sheet.png-1689ebc66045626663d43c3f66d30ffd.ctex"]
+source_file="res://bubble/failed_pop.png"
+dest_files=["res://.godot/imported/failed_pop.png-ff73f940b0eaa09485c7e9e12d44e18a.ctex"]
 
 [params]
 

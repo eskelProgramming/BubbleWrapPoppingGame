@@ -1,9 +1,13 @@
 [gd_scene format=3 uid="uid://fb2epq5mm2li"]
 
-[ext_resource type="Texture2D" uid="uid://blju3ois63lsy" path="res://bubble_sheets/small_sheet.png" id="1_hina3"]
+[ext_resource type="Script" uid="uid://duwly8hk4p6xi" path="res://bubble_sheets/scenes/small_sheet.gd" id="1_d7o33"]
+[ext_resource type="Texture2D" uid="uid://blju3ois63lsy" path="res://bubble_sheets/assets/small_sheet.png" id="1_hina3"]
 [ext_resource type="PackedScene" uid="uid://dw8ldgpfsw6k5" path="res://bubble/bubble.tscn" id="2_v6683"]
 
 [node name="small_sheet" type="Node2D" unique_id=2040784434]
+script = ExtResource("1_d7o33")
+pop_chance = 0.25
+total_bubbles = 50
 
 [node name="SmallSheet" type="Sprite2D" parent="." unique_id=548900089]
 texture = ExtResource("1_hina3")
