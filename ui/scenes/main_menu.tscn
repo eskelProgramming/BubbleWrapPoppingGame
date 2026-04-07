@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://v24gv1yxvo6j"]
+
+[ext_resource type="Script" uid="uid://b885cwsmf8n5w" path="res://ui/scripts/main_menu.gd" id="1_tfcyl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vfjvn"]
+bg_color = Color(0.10574629, 0.6958273, 0.5903052, 1)
+
+[node name="main_menu" type="CanvasLayer" unique_id=456475357]
+script = ExtResource("1_tfcyl")
+
+[node name="Panel" type="Panel" parent="." unique_id=934499820]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_vfjvn")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=851498643]
+offset_left = 720.0
+offset_top = 216.0
+offset_right = 1255.9998
+offset_bottom = 312.0
+theme_override_font_sizes/normal_font_size = 48
+theme_override_font_sizes/bold_font_size = 48
+theme_override_font_sizes/bold_italics_font_size = 48
+theme_override_font_sizes/italics_font_size = 48
+theme_override_font_sizes/mono_font_size = 48
+text = "Bubble Popping Game"
+
+[node name="start_btn" type="Button" parent="." unique_id=648199506]
+offset_left = 840.0
+offset_top = 736.0
+offset_right = 1110.0002
+offset_bottom = 811.0
+theme_override_font_sizes/font_size = 48
+text = "Start Game"
+
+[node name="exit_btn" type="Button" parent="." unique_id=1541494083]
+offset_left = 856.0
+offset_top = 888.0
+offset_right = 1099.0002
+offset_bottom = 963.0
+theme_override_font_sizes/font_size = 48
+text = "Exit Game
+"
+
+[connection signal="pressed" from="start_btn" to="." method="_on_start_btn_pressed"]
+[connection signal="pressed" from="exit_btn" to="." method="_on_exit_btn_pressed"]
