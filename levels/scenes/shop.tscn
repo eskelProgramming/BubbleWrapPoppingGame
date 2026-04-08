@@ -1,0 +1,169 @@
+[gd_scene format=3 uid="uid://bgxog2vldsi2i"]
+
+[ext_resource type="Script" uid="uid://dwqnioohv8d4n" path="res://levels/scripts/shop.gd" id="1_rqy8b"]
+[ext_resource type="PackedScene" uid="uid://y2hln0n3gfj6" path="res://ui/scenes/shop_item_spot.tscn" id="2_rqy8b"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qo484"]
+bg_color = Color(0.97640926, 0.27688846, 0.68934125, 1)
+
+[node name="shop" type="Node" unique_id=1807890363]
+script = ExtResource("1_rqy8b")
+level_id = 1
+metadata/_custom_type_script = "uid://dphoayjllgxdv"
+
+[node name="Panel" type="Panel" parent="." unique_id=924663387]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qo484")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=1663543969]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/VBoxContainer" unique_id=1448267490]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/normal_font_size = 64
+text = "Shop"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="shelf_1" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=310193559]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control" type="Control" parent="Panel/VBoxContainer/shelf_1" unique_id=633072167]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot" parent="Panel/VBoxContainer/shelf_1" unique_id=1254462752 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control2" type="Control" parent="Panel/VBoxContainer/shelf_1" unique_id=424280041]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot2" parent="Panel/VBoxContainer/shelf_1" unique_id=840655690 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control3" type="Control" parent="Panel/VBoxContainer/shelf_1" unique_id=1532622010]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control4" type="Control" parent="Panel/VBoxContainer/shelf_1" unique_id=355840351]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot3" parent="Panel/VBoxContainer/shelf_1" unique_id=68721485 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control5" type="Control" parent="Panel/VBoxContainer/shelf_1" unique_id=226462475]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot4" parent="Panel/VBoxContainer/shelf_1" unique_id=938881064 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control6" type="Control" parent="Panel/VBoxContainer/shelf_1" unique_id=2014154128]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control4" type="Control" parent="Panel/VBoxContainer" unique_id=538858620]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="shelf_2" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1076399945]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=1153641976]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot" parent="Panel/VBoxContainer/shelf_2" unique_id=1372733237 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control2" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=60204484]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot2" parent="Panel/VBoxContainer/shelf_2" unique_id=1140333261 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control3" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=936455078]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control4" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=1542087552]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot3" parent="Panel/VBoxContainer/shelf_2" unique_id=340313436 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control5" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=2070462271]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot4" parent="Panel/VBoxContainer/shelf_2" unique_id=793598758 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control6" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=1113847523]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control2" type="Control" parent="Panel/VBoxContainer" unique_id=1723516910]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="shelf_3" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1543746554]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control" type="Control" parent="Panel/VBoxContainer/shelf_3" unique_id=32821721]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot" parent="Panel/VBoxContainer/shelf_3" unique_id=1552780874 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control2" type="Control" parent="Panel/VBoxContainer/shelf_3" unique_id=808640920]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot2" parent="Panel/VBoxContainer/shelf_3" unique_id=1408633592 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control3" type="Control" parent="Panel/VBoxContainer/shelf_3" unique_id=1770586257]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control4" type="Control" parent="Panel/VBoxContainer/shelf_3" unique_id=382628465]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot3" parent="Panel/VBoxContainer/shelf_3" unique_id=1236224199 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control5" type="Control" parent="Panel/VBoxContainer/shelf_3" unique_id=115078857]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="shop_item_spot4" parent="Panel/VBoxContainer/shelf_3" unique_id=387274137 instance=ExtResource("2_rqy8b")]
+layout_mode = 2
+
+[node name="Control6" type="Control" parent="Panel/VBoxContainer/shelf_3" unique_id=1565053828]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control" type="Control" parent="Panel/VBoxContainer" unique_id=144363435]
+layout_mode = 2
+size_flags_vertical = 3

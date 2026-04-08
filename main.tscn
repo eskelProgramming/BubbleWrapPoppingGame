@@ -11,9 +11,17 @@ level_unlocked = true
 level_path = "popping_level"
 metadata/_custom_type_script = "uid://drs5rtblqewh7"
 
+[sub_resource type="Resource" id="Resource_h2yge"]
+script = ExtResource("2_h2yge")
+level_id = 1
+level_name = "shop"
+level_unlocked = true
+level_path = "shop"
+metadata/_custom_type_script = "uid://drs5rtblqewh7"
+
 [node name="Main" type="Node" unique_id=1939108204]
 script = ExtResource("1_ig7tw")
-available_levels = Array[ExtResource("2_h2yge")]([SubResource("Resource_1bvp3")])
+available_levels = Array[ExtResource("2_h2yge")]([SubResource("Resource_1bvp3"), SubResource("Resource_h2yge")])
 
 [node name="main_menu" parent="." unique_id=456475357 instance=ExtResource("2_0xm2m")]
 

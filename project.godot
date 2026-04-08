@@ -20,6 +20,8 @@ config/icon="res://icon.svg"
 LevelManager="*uid://cllfg8651okwc"
 PopManager="*uid://bhdn5dritdhfl"
 ScoreManager="*uid://bily8mb8y2c03"
+ShopManager="*uid://dh55m6nadnmjv"
+InventoryManager="*uid://b5rxep56j3wkw"
 
 [display]
 
