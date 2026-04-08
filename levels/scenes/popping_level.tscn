@@ -11,24 +11,25 @@ script = ExtResource("1_1advq")
 metadata/_custom_type_script = "uid://dphoayjllgxdv"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=967815397]
-position = Vector2(624, 440)
-zoom = Vector2(0.41, 0.41)
+zoom = Vector2(2.44, 2.44)
 
 [node name="mini_sheet" parent="Camera2D" unique_id=1334067839 instance=ExtResource("2_bd1oo")]
-position = Vector2(-688, -184)
+position = Vector2(-48, -16)
 
 [node name="score_ui" parent="Camera2D" unique_id=100667577 instance=ExtResource("3_ucvu1")]
 layout_direction = 2
-offset_left = -2064.0
-offset_top = -1064.0
-offset_right = -2064.0
-offset_bottom = -1064.0
+offset_left = -359.99997
+offset_top = -191.99998
+offset_right = -359.99997
+offset_bottom = -191.99998
+scale = Vector2(0.21, 0.21)
 script = ExtResource("4_c2s5x")
 metadata/_edit_use_anchors_ = true
 
 [node name="final_score_screen" parent="Camera2D" unique_id=540478797 instance=ExtResource("2_1advq")]
-offset_left = -1056.0
-offset_top = -560.0
-offset_right = -1056.0
-offset_bottom = -560.0
+offset_left = -280.0
+offset_top = -168.0
+offset_right = -280.0
+offset_bottom = -168.0
+scale = Vector2(0.285, 0.285)
 metadata/_edit_use_anchors_ = true
