@@ -27,23 +27,18 @@ size_flags_vertical = 3
 
 [node name="Bubble" parent="VBoxContainer/HBoxContainer" unique_id=1981610153 instance=ExtResource("3_a6e3n")]
 layout_mode = 2
-size_flags_vertical = 2
 
 [node name="Bubble2" parent="VBoxContainer/HBoxContainer" unique_id=415999278 instance=ExtResource("3_a6e3n")]
 layout_mode = 2
-size_flags_vertical = 2
 
 [node name="Bubble3" parent="VBoxContainer/HBoxContainer" unique_id=1178999718 instance=ExtResource("3_a6e3n")]
 layout_mode = 2
-size_flags_vertical = 2
 
 [node name="Bubble4" parent="VBoxContainer/HBoxContainer" unique_id=655160598 instance=ExtResource("3_a6e3n")]
 layout_mode = 2
-size_flags_vertical = 2
 
 [node name="Bubble5" parent="VBoxContainer/HBoxContainer" unique_id=1071190159 instance=ExtResource("3_a6e3n")]
 layout_mode = 2
-size_flags_vertical = 2
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=1286866386]
 layout_mode = 2
