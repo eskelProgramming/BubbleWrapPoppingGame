@@ -10,11 +10,11 @@ extends Control
 
 var si: ShopItem
 
-func set_item(si: ShopItem):
+func set_item(new_si: ShopItem):
 	pass
-	image_btn.icon = load(si.image_location)
-	item_name.text = si.item_name
-	self.si = si
+	image_btn.icon = load(new_si.image_location)
+	item_name.text = new_si.item_name
+	si = new_si
 
 func reset_item():
 	image_btn.icon = null
