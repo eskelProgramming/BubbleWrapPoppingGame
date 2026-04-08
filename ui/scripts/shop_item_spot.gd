@@ -12,9 +12,9 @@ var si: ShopItem
 
 func set_item(si: ShopItem):
 	pass
-	#image_btn.icon = load(si.image_location)
-	#item_name.text = si.item_name
-	#self.si = si
+	image_btn.icon = load(si.image_location)
+	item_name.text = si.item_name
+	self.si = si
 
 func reset_item():
 	image_btn.icon = null
