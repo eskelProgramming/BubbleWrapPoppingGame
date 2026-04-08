@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://y2hln0n3gfj6"]
 
-[ext_resource type="Texture2D" uid="uid://5o6w1wts83ha" path="res://bubble/assets/bubble.png" id="1_r7a2n"]
 [ext_resource type="Script" uid="uid://ueugo21aphfk" path="res://ui/scripts/shop_item_spot.gd" id="1_wpy4o"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r7a2n"]
+load_path = "res://.godot/imported/bubble.png-ae1b2ab5f586bd2fb0a4a4895867b481.ctex"
 
 [node name="shop_item_spot" type="Control" unique_id=1254462752 groups=["shop_item_spots"]]
 layout_mode = 3
@@ -26,7 +28,7 @@ grow_vertical = 2
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 18.39
-icon = ExtResource("1_r7a2n")
+icon = SubResource("CompressedTexture2D_r7a2n")
 expand_icon = true
 
 [node name="item_name" type="RichTextLabel" parent="VBoxContainer" unique_id=26765321]
