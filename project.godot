@@ -20,12 +20,18 @@ config/icon="res://icon.svg"
 LevelManager="*uid://cllfg8651okwc"
 PopManager="*uid://bhdn5dritdhfl"
 ScoreManager="*uid://bily8mb8y2c03"
+ShopManager="*uid://dh55m6nadnmjv"
+InventoryManager="*uid://b5rxep56j3wkw"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1082
 window/size/mode=3
+
+[global_group]
+
+shop_item_spots=""
 
 [physics]
 
