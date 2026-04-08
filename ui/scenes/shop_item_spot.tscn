@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://y2hln0n3gfj6"]
 
-[ext_resource type="Texture2D" uid="uid://5o6w1wts83ha" path="res://bubble/assets/bubble.png" id="1_r7a2n"]
+[ext_resource type="Texture2D" uid="uid://bi53vvib86glj" path="res://bubble/assets/bubble.png" id="1_r7a2n"]
 [ext_resource type="Script" uid="uid://ueugo21aphfk" path="res://ui/scripts/shop_item_spot.gd" id="1_wpy4o"]
 
 [node name="shop_item_spot" type="Control" unique_id=1254462752 groups=["shop_item_spots"]]
@@ -23,6 +23,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="image_btn" type="Button" parent="VBoxContainer" unique_id=118189239]
+texture_filter = 1
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 18.39
