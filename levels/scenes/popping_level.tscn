@@ -1,25 +1,35 @@
 [gd_scene format=3 uid="uid://jp3bgu1raxvd"]
 
-[ext_resource type="Script" uid="uid://dphoayjllgxdv" path="res://levels/scripts/level.gd" id="1_bd1oo"]
+[ext_resource type="Script" uid="uid://cpd0frpm2b2pw" path="res://levels/scripts/popping_level.gd" id="1_1advq"]
+[ext_resource type="PackedScene" uid="uid://dx5bmqx5os7i8" path="res://ui/scenes/final_score_screen.tscn" id="2_1advq"]
 [ext_resource type="PackedScene" uid="uid://bvv7qs8yymlsj" path="res://bubble_sheets/scenes/mini_sheet.tscn" id="2_bd1oo"]
 [ext_resource type="PackedScene" uid="uid://btijwy1i0iyfg" path="res://ui/scenes/score_ui.tscn" id="3_ucvu1"]
 [ext_resource type="Script" uid="uid://tufhfbl2x4cx" path="res://ui/scripts/score_ui.gd" id="4_c2s5x"]
 
-[node name="popping_level" type="Node2D" unique_id=625673610]
-script = ExtResource("1_bd1oo")
+[node name="popping_level" type="Node" unique_id=913286286]
+script = ExtResource("1_1advq")
+metadata/_custom_type_script = "uid://dphoayjllgxdv"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=967815397]
 position = Vector2(624, 440)
 zoom = Vector2(0.41, 0.41)
 
-[node name="mini_sheet" parent="." unique_id=1334067839 instance=ExtResource("2_bd1oo")]
-position = Vector2(-64, 256)
+[node name="mini_sheet" parent="Camera2D" unique_id=1334067839 instance=ExtResource("2_bd1oo")]
+position = Vector2(-688, -184)
 
-[node name="score_ui" parent="." unique_id=100667577 instance=ExtResource("3_ucvu1")]
+[node name="score_ui" parent="Camera2D" unique_id=100667577 instance=ExtResource("3_ucvu1")]
 layout_direction = 2
-offset_left = -1440.0
-offset_top = -624.0
-offset_right = -1440.0
-offset_bottom = -624.0
+offset_left = -2064.0
+offset_top = -1064.0
+offset_right = -2064.0
+offset_bottom = -1064.0
 script = ExtResource("4_c2s5x")
+metadata/_edit_use_anchors_ = true
+
+[node name="final_score_screen" parent="Camera2D" unique_id=540478797 instance=ExtResource("2_1advq")]
+visible = false
+offset_left = -1056.0
+offset_top = -560.0
+offset_right = -1056.0
+offset_bottom = -560.0
 metadata/_edit_use_anchors_ = true
