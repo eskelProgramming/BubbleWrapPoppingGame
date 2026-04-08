@@ -6,9 +6,6 @@ func _ready() -> void:
 		for si in ShopManager.shop_items:
 			if sis.item_type == si.item_category:
 				sis.set_item(si)
+			else:
+				sis.reset_item()
 	
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass

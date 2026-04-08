@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://5o6w1wts83ha" path="res://bubble/assets/bubble.png" id="1_r7a2n"]
 [ext_resource type="Script" uid="uid://ueugo21aphfk" path="res://ui/scripts/shop_item_spot.gd" id="1_wpy4o"]
 
-[node name="shop_item_spot" type="Control" unique_id=1254462752]
+[node name="shop_item_spot" type="Control" unique_id=1254462752 groups=["shop_item_spots"]]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
