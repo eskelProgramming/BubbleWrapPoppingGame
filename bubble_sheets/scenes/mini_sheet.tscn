@@ -20,57 +20,101 @@ offset_left = -47.0
 offset_top = -21.0
 offset_right = -31.0
 offset_bottom = -5.0
+focus_neighbor_right = NodePath("../Bubble2")
+focus_neighbor_bottom = NodePath("../Bubble6")
+focus_next = NodePath("../Bubble2")
 
 [node name="Bubble2" parent="MiniSheet" unique_id=1486152105 instance=ExtResource("3_a6e3n")]
 offset_left = -27.0
 offset_top = -24.0
 offset_right = -11.0
 offset_bottom = -8.0
+focus_neighbor_left = NodePath("../Bubble")
+focus_neighbor_right = NodePath("../Bubble3")
+focus_neighbor_bottom = NodePath("../Bubble7")
+focus_next = NodePath("../Bubble3")
+focus_previous = NodePath("../Bubble")
 
 [node name="Bubble3" parent="MiniSheet" unique_id=1318527001 instance=ExtResource("3_a6e3n")]
 offset_left = -8.0
 offset_top = -19.0
 offset_right = 8.0
 offset_bottom = -3.0
+focus_neighbor_left = NodePath("../Bubble2")
+focus_neighbor_right = NodePath("../Bubble4")
+focus_neighbor_bottom = NodePath("../Bubble8")
+focus_next = NodePath("../Bubble4")
+focus_previous = NodePath("../Bubble2")
 
 [node name="Bubble4" parent="MiniSheet" unique_id=1835144231 instance=ExtResource("3_a6e3n")]
 offset_left = 9.0
 offset_top = -20.0
 offset_right = 25.0
 offset_bottom = -4.0
+focus_neighbor_left = NodePath("../Bubble3")
+focus_neighbor_right = NodePath("../Bubble5")
+focus_neighbor_bottom = NodePath("../Bubble9")
+focus_next = NodePath("../Bubble5")
+focus_previous = NodePath("../Bubble3")
 
 [node name="Bubble5" parent="MiniSheet" unique_id=1472827369 instance=ExtResource("3_a6e3n")]
 offset_left = 28.0
 offset_top = -25.0
 offset_right = 44.0
 offset_bottom = -9.0
+focus_neighbor_left = NodePath("../Bubble4")
+focus_neighbor_bottom = NodePath("../Bubble10")
+focus_next = NodePath("../Bubble6")
+focus_previous = NodePath("../Bubble4")
 
 [node name="Bubble6" parent="MiniSheet" unique_id=1788289194 instance=ExtResource("3_a6e3n")]
 offset_left = -47.0
 offset_top = 1.0
 offset_right = -31.0
 offset_bottom = 17.0
+focus_neighbor_top = NodePath("../Bubble")
+focus_neighbor_right = NodePath("../Bubble7")
+focus_next = NodePath("../Bubble7")
+focus_previous = NodePath("../Bubble5")
 
 [node name="Bubble7" parent="MiniSheet" unique_id=28053761 instance=ExtResource("3_a6e3n")]
 offset_left = -27.0
 offset_top = -1.0
 offset_right = -11.0
 offset_bottom = 15.0
+focus_neighbor_left = NodePath("../Bubble5")
+focus_neighbor_top = NodePath("../Bubble2")
+focus_neighbor_right = NodePath("../Bubble8")
+focus_next = NodePath("../Bubble8")
+focus_previous = NodePath("../Bubble6")
 
 [node name="Bubble8" parent="MiniSheet" unique_id=918465093 instance=ExtResource("3_a6e3n")]
 offset_left = -9.0
 offset_top = 3.0
 offset_right = 7.0
 offset_bottom = 19.0
+focus_neighbor_left = NodePath("../Bubble7")
+focus_neighbor_top = NodePath("../Bubble3")
+focus_neighbor_right = NodePath("../Bubble9")
+focus_next = NodePath("../Bubble9")
+focus_previous = NodePath("../Bubble7")
 
 [node name="Bubble9" parent="MiniSheet" unique_id=1669504308 instance=ExtResource("3_a6e3n")]
 offset_left = 9.0
 offset_top = 5.0
 offset_right = 25.0
 offset_bottom = 21.0
+focus_neighbor_left = NodePath("../Bubble8")
+focus_neighbor_top = NodePath("../Bubble4")
+focus_neighbor_right = NodePath("../Bubble10")
+focus_next = NodePath("../Bubble10")
+focus_previous = NodePath("../Bubble8")
 
 [node name="Bubble10" parent="MiniSheet" unique_id=1771944115 instance=ExtResource("3_a6e3n")]
 offset_left = 28.0
 offset_top = 2.0
 offset_right = 44.0
 offset_bottom = 18.0
+focus_neighbor_left = NodePath("../Bubble9")
+focus_neighbor_top = NodePath("../Bubble5")
+focus_previous = NodePath("../Bubble9")

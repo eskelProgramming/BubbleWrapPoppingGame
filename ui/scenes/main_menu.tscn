@@ -12,7 +12,7 @@ script = ExtResource("1_tfcyl")
 [node name="bubble_background" parent="." unique_id=1723724380 instance=ExtResource("2_pvlg3")]
 
 [node name="Panel" type="Panel" parent="." unique_id=934499820]
-anchors_preset = -1
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 248.00003
@@ -43,6 +43,7 @@ offset_left = 840.0
 offset_top = 736.0
 offset_right = 1110.0002
 offset_bottom = 811.0
+focus_neighbor_bottom = NodePath("../exit_btn")
 theme_override_font_sizes/font_size = 48
 text = "Start Game"
 
@@ -51,6 +52,7 @@ offset_left = 856.0
 offset_top = 888.0
 offset_right = 1099.0002
 offset_bottom = 963.0
+focus_neighbor_top = NodePath("../start_btn")
 theme_override_font_sizes/font_size = 48
 text = "Exit Game
 "
