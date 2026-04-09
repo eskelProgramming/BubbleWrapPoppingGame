@@ -4,9 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bi53vvib86glj" path="res://bubble/assets/bubble.png" id="2_s8ch0"]
 [ext_resource type="Texture2D" uid="uid://btophy5omi5ad" path="res://bubble/assets/popped_bubble.png" id="3_s8ch0"]
 [ext_resource type="Texture2D" uid="uid://cx0t86e7shwrt" path="res://bubble/assets/failed_pop.png" id="3_sbuxj"]
-[ext_resource type="AudioStream" uid="uid://bfe1hdvvrg4in" path="res://sounds/bubble_pop_sound.mp3" id="4_bvbpt"]
 [ext_resource type="Texture2D" uid="uid://r1ey653uandm" path="res://bubble/assets/popping_animation.png" id="5_e4vhu"]
-[ext_resource type="AudioStream" uid="uid://byor6gdfqdvnn" path="res://sounds/failed_pop_sound.mp3" id="6_fko6b"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gcua0"]
 
@@ -100,12 +98,5 @@ position = Vector2(8, 8)
 sprite_frames = SubResource("SpriteFrames_bvbpt")
 animation = &"failed"
 autoplay = "default"
-
-[node name="pop" type="AudioStreamPlayer2D" parent="." unique_id=505955259]
-stream = ExtResource("4_bvbpt")
-
-[node name="failed_pop" type="AudioStreamPlayer2D" parent="." unique_id=1990981003]
-stream = ExtResource("6_fko6b")
-pitch_scale = 4.4
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]
