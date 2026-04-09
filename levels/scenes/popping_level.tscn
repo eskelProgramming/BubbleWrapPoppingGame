@@ -11,6 +11,7 @@ script = ExtResource("1_1advq")
 metadata/_custom_type_script = "uid://dphoayjllgxdv"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=967815397]
+position = Vector2(1048, 888)
 zoom = Vector2(2.44, 2.44)
 
 [node name="mini_sheet" parent="Camera2D" unique_id=1334067839 instance=ExtResource("2_bd1oo")]
