@@ -15,6 +15,10 @@ run/main_scene="uid://bws5rem2cr7w7"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[audio]
+
+buses/default_bus_layout="uid://cdfh8qddx4npl"
+
 [autoload]
 
 LevelManager="*uid://cllfg8651okwc"
@@ -22,6 +26,8 @@ PopManager="*uid://bhdn5dritdhfl"
 ScoreManager="*uid://bily8mb8y2c03"
 ShopManager="*uid://dh55m6nadnmjv"
 InventoryManager="*uid://b5rxep56j3wkw"
+SoundManager="*uid://dny3okmjvvtl4"
+InputManager="*uid://dic7uju1aiqel"
 
 [display]
 
