@@ -10,6 +10,8 @@ func check_pop():
 	return randf() <= PopManager.pop_chance
 	
 func _on_pressed() -> void:
+	animated_sprite_2d.play("popping")
+	await animated_sprite_2d.animation_finished
 	if check_pop(): 
 		animated_sprite_2d.play("popped")
 		pop.play()
