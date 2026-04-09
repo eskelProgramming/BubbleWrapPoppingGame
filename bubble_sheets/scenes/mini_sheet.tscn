@@ -10,51 +10,67 @@ pop_chance = 0.5
 total_bubbles = 10
 metadata/_custom_type_script = "uid://cnoxe5tj4l4b5"
 
-[node name="MiniSheet" type="Sprite2D" parent="." unique_id=1754678834]
-position = Vector2(51.999996, 20)
-scale = Vector2(0.09004329, 0.08658008)
+[node name="MiniSheet" type="Sprite2D" parent="." unique_id=2052039976]
+texture_filter = 1
+position = Vector2(48, 24)
 texture = ExtResource("2_b1xci")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1245399458]
-offset_right = 104.0
-offset_bottom = 40.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
+[node name="Bubble" parent="MiniSheet" unique_id=1981610153 instance=ExtResource("3_a6e3n")]
+offset_left = -47.0
+offset_top = -21.0
+offset_right = -31.0
+offset_bottom = -5.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1406610873]
-layout_mode = 2
-size_flags_vertical = 3
+[node name="Bubble2" parent="MiniSheet" unique_id=1486152105 instance=ExtResource("3_a6e3n")]
+offset_left = -27.0
+offset_top = -24.0
+offset_right = -11.0
+offset_bottom = -8.0
 
-[node name="Bubble" parent="VBoxContainer/HBoxContainer" unique_id=1981610153 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble3" parent="MiniSheet" unique_id=1318527001 instance=ExtResource("3_a6e3n")]
+offset_left = -8.0
+offset_top = -19.0
+offset_right = 8.0
+offset_bottom = -3.0
 
-[node name="Bubble2" parent="VBoxContainer/HBoxContainer" unique_id=415999278 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble4" parent="MiniSheet" unique_id=1835144231 instance=ExtResource("3_a6e3n")]
+offset_left = 9.0
+offset_top = -20.0
+offset_right = 25.0
+offset_bottom = -4.0
 
-[node name="Bubble3" parent="VBoxContainer/HBoxContainer" unique_id=1178999718 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble5" parent="MiniSheet" unique_id=1472827369 instance=ExtResource("3_a6e3n")]
+offset_left = 28.0
+offset_top = -25.0
+offset_right = 44.0
+offset_bottom = -9.0
 
-[node name="Bubble4" parent="VBoxContainer/HBoxContainer" unique_id=655160598 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble6" parent="MiniSheet" unique_id=1788289194 instance=ExtResource("3_a6e3n")]
+offset_left = -47.0
+offset_top = 1.0
+offset_right = -31.0
+offset_bottom = 17.0
 
-[node name="Bubble5" parent="VBoxContainer/HBoxContainer" unique_id=1071190159 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble7" parent="MiniSheet" unique_id=28053761 instance=ExtResource("3_a6e3n")]
+offset_left = -27.0
+offset_top = -1.0
+offset_right = -11.0
+offset_bottom = 15.0
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=1286866386]
-layout_mode = 2
-size_flags_vertical = 3
+[node name="Bubble8" parent="MiniSheet" unique_id=918465093 instance=ExtResource("3_a6e3n")]
+offset_left = -9.0
+offset_top = 3.0
+offset_right = 7.0
+offset_bottom = 19.0
 
-[node name="Bubble6" parent="VBoxContainer/HBoxContainer2" unique_id=2078272137 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble9" parent="MiniSheet" unique_id=1669504308 instance=ExtResource("3_a6e3n")]
+offset_left = 9.0
+offset_top = 5.0
+offset_right = 25.0
+offset_bottom = 21.0
 
-[node name="Bubble7" parent="VBoxContainer/HBoxContainer2" unique_id=1511921019 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
-
-[node name="Bubble8" parent="VBoxContainer/HBoxContainer2" unique_id=1956425831 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
-
-[node name="Bubble9" parent="VBoxContainer/HBoxContainer2" unique_id=997929149 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
-
-[node name="Bubble10" parent="VBoxContainer/HBoxContainer2" unique_id=887304513 instance=ExtResource("3_a6e3n")]
-layout_mode = 2
+[node name="Bubble10" parent="MiniSheet" unique_id=1771944115 instance=ExtResource("3_a6e3n")]
+offset_left = 28.0
+offset_top = 2.0
+offset_right = 44.0
+offset_bottom = 18.0
