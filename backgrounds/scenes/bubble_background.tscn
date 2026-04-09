@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://kp332kfsx4b0"]
+
+[ext_resource type="Shader" uid="uid://22amocvx56mo" path="res://backgrounds/scripts/bubble_background.gdshader" id="1_o256i"]
+[ext_resource type="Texture2D" uid="uid://b8wfr2dh8whd2" path="res://backgrounds/bubble_pattern.png" id="2_8et81"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8vxgg"]
+shader = ExtResource("1_o256i")
+shader_parameter/speed = 0.1
+
+[node name="bubble_background" type="Control" unique_id=1723724380]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1294553579]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.96862745, 0.36078432, 0.5176471, 1)
+
+[node name="pattern" type="TextureRect" parent="." unique_id=168838077]
+texture_filter = 1
+texture_repeat = 2
+material = SubResource("ShaderMaterial_8vxgg")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -71.999985
+offset_top = -520.0
+offset_right = -1716.0
+offset_bottom = -1326.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(7.4, 7.4)
+texture = ExtResource("2_8et81")
+stretch_mode = 4

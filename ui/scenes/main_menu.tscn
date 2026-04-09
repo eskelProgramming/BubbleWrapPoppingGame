@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://v24gv1yxvo6j"]
 
 [ext_resource type="Script" uid="uid://b885cwsmf8n5w" path="res://ui/scripts/main_menu.gd" id="1_tfcyl"]
+[ext_resource type="PackedScene" uid="uid://kp332kfsx4b0" path="res://backgrounds/scenes/bubble_background.tscn" id="2_pvlg3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vfjvn"]
 bg_color = Color(0.10574629, 0.6958273, 0.5903052, 1)
@@ -8,14 +9,21 @@ bg_color = Color(0.10574629, 0.6958273, 0.5903052, 1)
 [node name="main_menu" type="CanvasLayer" unique_id=456475357]
 script = ExtResource("1_tfcyl")
 
+[node name="bubble_background" parent="." unique_id=1723724380 instance=ExtResource("2_pvlg3")]
+
 [node name="Panel" type="Panel" parent="." unique_id=934499820]
-anchors_preset = 15
+anchors_preset = -1
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 248.00003
+offset_top = 184.0
+offset_right = 248.0
+offset_bottom = 184.0
 grow_horizontal = 2
 grow_vertical = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
+scale = Vector2(0.745, 0.745)
+size_flags_horizontal = 4
+size_flags_vertical = 4
 theme_override_styles/panel = SubResource("StyleBoxFlat_vfjvn")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=851498643]
