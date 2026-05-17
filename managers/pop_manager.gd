@@ -19,3 +19,7 @@ func pop_bonus() -> float:
 func check_pops():
 	if num_popped >= sheet_bubbles:
 		ScoreManager.calc_views()
+
+func reset_pops():
+	num_popped = 0
+	num_good_pops = 0

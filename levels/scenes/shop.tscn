@@ -172,6 +172,13 @@ item_type = 4
 layout_mode = 2
 size_flags_horizontal = 3
 
+[node name="exit_shop" type="Button" parent="Panel/VBoxContainer" unique_id=2100866629]
+layout_mode = 2
+size_flags_vertical = 3
+text = "LEAVE SHOP"
+
 [node name="Control" type="Control" parent="Panel/VBoxContainer" unique_id=144363435]
 layout_mode = 2
 size_flags_vertical = 3
+
+[connection signal="pressed" from="Panel/VBoxContainer/exit_shop" to="." method="_on_exit_shop_pressed"]

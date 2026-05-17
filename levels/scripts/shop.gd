@@ -9,3 +9,7 @@ func _ready() -> void:
 			else:
 				sis.reset_item()
 	
+
+
+func _on_exit_shop_pressed() -> void:
+	LevelManager.load_level(0)
