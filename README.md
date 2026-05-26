@@ -11,6 +11,7 @@ As a solo dev going back to school for my masters degree, I do not have a difini
 - Brand Deals (Careful taking too many; viewers may not approve)
 - Multiple Endings
 - Native [Archipelago Multi-Game Randomizer](https://github.com/ArchipelagoMW/Archipelago) support.
+- Sandbox/Endless mode
 
 ## THIS IS A WORK IN PROGRESS
 While I am excited to work on this project, it is still very early in development. I have not even come up with a name yet, so many parts of this are subject to change. I am excited to share more details as I progress!
