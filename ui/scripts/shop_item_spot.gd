@@ -11,7 +11,6 @@ extends Control
 var si: ShopItem
 
 func set_item(new_si: ShopItem):
-	pass
 	image_btn.icon = load(new_si.image_location)
 	item_name.text = new_si.item_name
 	si = new_si
