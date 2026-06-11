@@ -23,3 +23,4 @@ func check_pops():
 func reset_pops():
 	num_popped = 0
 	num_good_pops = 0
+	pop_chance = 1

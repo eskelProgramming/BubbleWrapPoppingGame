@@ -12,7 +12,7 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if ScoreManager.curr_views > 0:
+	if PopManager.num_popped >= PopManager.sheet_bubbles:
 		final_score_screen.show()
 
 func set_sheet():
