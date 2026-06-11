@@ -27,11 +27,26 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Panel/VBoxContainer" unique_id=1448267490]
+[node name="Labels" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1914683386]
 layout_mode = 2
+alignment = 1
+
+[node name="shop_label" type="RichTextLabel" parent="Panel/VBoxContainer/Labels" unique_id=774365006]
+layout_mode = 2
+size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_font_sizes/normal_font_size = 64
 text = "Shop"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="money_label" type="RichTextLabel" parent="Panel/VBoxContainer/Labels" unique_id=1448267490]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_font_sizes/normal_font_size = 64
+text = "Money: "
 fit_content = true
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -78,10 +93,6 @@ item_type = 2
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Control4" type="Control" parent="Panel/VBoxContainer" unique_id=538858620]
-layout_mode = 2
-size_flags_vertical = 3
-
 [node name="shelf_2" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1076399945]
 layout_mode = 2
 size_flags_vertical = 3
@@ -123,10 +134,6 @@ item_type = 3
 [node name="Control6" type="Control" parent="Panel/VBoxContainer/shelf_2" unique_id=1113847523]
 layout_mode = 2
 size_flags_horizontal = 3
-
-[node name="Control2" type="Control" parent="Panel/VBoxContainer" unique_id=1723516910]
-layout_mode = 2
-size_flags_vertical = 3
 
 [node name="shelf_3" type="HBoxContainer" parent="Panel/VBoxContainer" unique_id=1543746554]
 layout_mode = 2
@@ -176,9 +183,5 @@ size_flags_horizontal = 3
 layout_mode = 2
 size_flags_vertical = 3
 text = "LEAVE SHOP"
-
-[node name="Control" type="Control" parent="Panel/VBoxContainer" unique_id=144363435]
-layout_mode = 2
-size_flags_vertical = 3
 
 [connection signal="pressed" from="Panel/VBoxContainer/exit_shop" to="." method="_on_exit_shop_pressed"]

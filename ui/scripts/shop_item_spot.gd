@@ -4,6 +4,7 @@ extends Control
 
 @onready var image_btn: Button = $VBoxContainer/image_btn
 @onready var item_name: RichTextLabel = $VBoxContainer/item_name
+@onready var item_price: RichTextLabel = $VBoxContainer/item_price
 
 
 @export var item_type: ShopManager.ITEM_TYPES
@@ -13,6 +14,7 @@ var si: ShopItem
 func set_item(new_si: ShopItem):
 	image_btn.icon = load(new_si.image_location)
 	item_name.text = new_si.item_name
+	item_price.text = str(new_si.base_item_price)
 	si = new_si
 
 func reset_item():
@@ -22,5 +24,8 @@ func reset_item():
 
 func _on_image_btn_pressed() -> void:
 	image_btn.disabled = true
-	InventoryManager.inventory.append(si)
-	reset_item()
+	if MoneyManager.attempt_spend_money(si.base_item_price):
+		InventoryManager.inventory.append(si)
+		reset_item()
+	else:
+		image_btn.disabled = false

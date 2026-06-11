@@ -28,6 +28,7 @@ ShopManager="*uid://dh55m6nadnmjv"
 InventoryManager="*uid://b5rxep56j3wkw"
 SoundManager="*uid://dny3okmjvvtl4"
 InputManager="*uid://dic7uju1aiqel"
+MoneyManager="*uid://4gwj250nicnn"
 
 [display]
 

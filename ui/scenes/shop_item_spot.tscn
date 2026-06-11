@@ -41,4 +41,15 @@ fit_content = true
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="item_price" type="RichTextLabel" parent="VBoxContainer" unique_id=1718669951]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.41
+theme_override_font_sizes/normal_font_size = 35
+text = "Example
+"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [connection signal="pressed" from="VBoxContainer/image_btn" to="." method="_on_image_btn_pressed"]

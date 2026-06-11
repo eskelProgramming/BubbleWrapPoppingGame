@@ -16,7 +16,7 @@ func _process(delta: float) -> void:
 		final_score_screen.show()
 
 func set_sheet():
-	while !InventoryManager.inventory.is_empty():
+	if !InventoryManager.inventory.is_empty():
 		var sheet = InventoryManager.inventory.pop_front()
 		if sheet.item_category == ShopManager.ITEM_TYPES.NORMAL_SHEET:
 			var sheet_res := load(sheet.path)
