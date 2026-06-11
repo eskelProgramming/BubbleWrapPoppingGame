@@ -20,7 +20,8 @@ func set_sheet():
 		var sheet = InventoryManager.inventory.pop_front()
 		if sheet.item_category == ShopManager.ITEM_TYPES.NORMAL_SHEET:
 			var sheet_res := load(sheet.path)
-			sheet_spawn.add_child(sheet)
+			var loaded_sheet = sheet_res.instantiate()
+			sheet_spawn.add_child(loaded_sheet)
 		
 	if sheet_spawn.get_child_count() <= 0:
 		var sheet_res := load("res://bubble_sheets/scenes/mini_sheet.tscn")
