@@ -3,6 +3,7 @@ extends Node2D
 
 @export var pop_chance: float
 @export var total_bubbles: int
+@export var sheet_path: String
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
