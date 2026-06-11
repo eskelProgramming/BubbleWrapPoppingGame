@@ -16,6 +16,8 @@ func _on_pressed() -> void:
 		ScoreManager.curr_combo += 1
 		if ScoreManager.curr_combo > ScoreManager.max_combo:
 			ScoreManager.max_combo =  ScoreManager.curr_combo
+			await get_tree().create_timer(.1).timeout
+			SoundManager.play_sfx("multi_pop", ScoreManager.curr_combo)
 	else:
 		animated_sprite_2d.play("failed")
 		SoundManager.play_sfx("failed_pop")
