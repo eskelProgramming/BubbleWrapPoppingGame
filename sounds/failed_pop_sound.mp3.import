@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/failed_pop_sound.mp3-733eda676bedd6d2717ddd16
 [params]
 
 loop=false
-loop_offset=0
-bpm=0
+loop_offset=0.0
+bpm=0.0
 beat_count=0
 bar_beats=4
