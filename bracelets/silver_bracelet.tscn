@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dvcakxae88x1b"]
+
+[ext_resource type="Script" uid="uid://eaev8ey7c6cf" path="res://bracelets/bracelet.gd" id="1_qlhpo"]
+
+[node name="silver_bracelet" type="Node" unique_id=354858683]
+script = ExtResource("1_qlhpo")
+image_location = "uid://1yaf3mt4qb5j"
+view_multi = 1.25
+description = "Gives 25% more views"
+metadata/_custom_type_script = "uid://eaev8ey7c6cf"

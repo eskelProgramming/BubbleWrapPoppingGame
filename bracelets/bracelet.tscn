@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dvsmemdy104ji"]
+
+[ext_resource type="Script" uid="uid://eaev8ey7c6cf" path="res://bracelets/bracelet.gd" id="1_7vey0"]
+
+[node name="bracelet" type="Control" unique_id=278596630]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7vey0")
+image_location = "uid://7xkifgj165ah"
