@@ -10,7 +10,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if ScoreManager.curr_views != 0:
-		total_score.text = "Total Score: %s" % ScoreManager.total_score
+		total_score.text = "Level Score: %s" % ScoreManager.curr_score
 		max_combo.text = "Max Combo: %s" % ScoreManager.max_combo
 		num_views.text = "Total Views: %s" % ScoreManager.curr_views
 
