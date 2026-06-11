@@ -2,12 +2,18 @@
 
 [ext_resource type="Script" uid="uid://cpd0frpm2b2pw" path="res://levels/scripts/popping_level.gd" id="1_1advq"]
 [ext_resource type="PackedScene" uid="uid://dx5bmqx5os7i8" path="res://ui/scenes/final_score_screen.tscn" id="2_1advq"]
+[ext_resource type="Texture2D" uid="uid://bcwguu11fp36s" path="res://assets/desk.png" id="2_bvly0"]
 [ext_resource type="PackedScene" uid="uid://btijwy1i0iyfg" path="res://ui/scenes/score_ui.tscn" id="3_ucvu1"]
 [ext_resource type="Script" uid="uid://tufhfbl2x4cx" path="res://ui/scripts/score_ui.gd" id="4_c2s5x"]
 
 [node name="popping_level" type="Node" unique_id=913286286]
 script = ExtResource("1_1advq")
 metadata/_custom_type_script = "uid://dphoayjllgxdv"
+
+[node name="Desk" type="Sprite2D" parent="." unique_id=2067076917]
+position = Vector2(1184, 831.99994)
+scale = Vector2(0.565, 0.565)
+texture = ExtResource("2_bvly0")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=967815397]
 position = Vector2(1048, 888)
