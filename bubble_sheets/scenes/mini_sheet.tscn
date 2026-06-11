@@ -12,7 +12,7 @@ metadata/_custom_type_script = "uid://cnoxe5tj4l4b5"
 
 [node name="MiniSheet" type="Sprite2D" parent="." unique_id=2052039976]
 texture_filter = 1
-position = Vector2(48, 24)
+position = Vector2(1, 1)
 texture = ExtResource("2_b1xci")
 
 [node name="Bubble" parent="MiniSheet" unique_id=1981610153 instance=ExtResource("3_a6e3n")]
@@ -20,57 +20,67 @@ offset_left = -47.0
 offset_top = -21.0
 offset_right = -31.0
 offset_bottom = -5.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble2" parent="MiniSheet" unique_id=1486152105 instance=ExtResource("3_a6e3n")]
 offset_left = -27.0
 offset_top = -24.0
 offset_right = -11.0
 offset_bottom = -8.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble3" parent="MiniSheet" unique_id=1318527001 instance=ExtResource("3_a6e3n")]
 offset_left = -8.0
 offset_top = -19.0
 offset_right = 8.0
 offset_bottom = -3.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble4" parent="MiniSheet" unique_id=1835144231 instance=ExtResource("3_a6e3n")]
 offset_left = 9.0
 offset_top = -20.0
 offset_right = 25.0
 offset_bottom = -4.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble5" parent="MiniSheet" unique_id=1472827369 instance=ExtResource("3_a6e3n")]
 offset_left = 28.0
 offset_top = -25.0
 offset_right = 44.0
 offset_bottom = -9.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble6" parent="MiniSheet" unique_id=1788289194 instance=ExtResource("3_a6e3n")]
 offset_left = -47.0
 offset_top = 1.0
 offset_right = -31.0
 offset_bottom = 17.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble7" parent="MiniSheet" unique_id=28053761 instance=ExtResource("3_a6e3n")]
 offset_left = -27.0
 offset_top = -1.0
 offset_right = -11.0
 offset_bottom = 15.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble8" parent="MiniSheet" unique_id=918465093 instance=ExtResource("3_a6e3n")]
 offset_left = -9.0
 offset_top = 3.0
 offset_right = 7.0
 offset_bottom = 19.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble9" parent="MiniSheet" unique_id=1669504308 instance=ExtResource("3_a6e3n")]
 offset_left = 9.0
 offset_top = 5.0
 offset_right = 25.0
 offset_bottom = 21.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Bubble10" parent="MiniSheet" unique_id=1771944115 instance=ExtResource("3_a6e3n")]
 offset_left = 28.0
 offset_top = 2.0
 offset_right = 44.0
 offset_bottom = 18.0
+metadata/_edit_use_anchors_ = true
