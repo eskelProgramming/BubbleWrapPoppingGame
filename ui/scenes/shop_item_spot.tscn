@@ -2,7 +2,14 @@
 
 [ext_resource type="Texture2D" uid="uid://bi53vvib86glj" path="res://bubble/assets/bubble.png" id="1_r7a2n"]
 [ext_resource type="Script" uid="uid://ueugo21aphfk" path="res://ui/scripts/shop_item_spot.gd" id="1_wpy4o"]
-[ext_resource type="Theme" uid="uid://bcq7fwer44442" path="res://ui/themes/shop_label.tres" id="3_224sj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_224sj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o17d2"]
+bg_color = Color(0.6657903, 0.59882057, 0.35695592, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qo484"]
+bg_color = Color(0.6666667, 0.6, 0.35686275, 1)
 
 [node name="shop_item_spot" type="Control" unique_id=1254462752 groups=["shop_item_spots"]]
 layout_mode = 3
@@ -15,7 +22,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_wpy4o")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=891616968]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1568494365]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -23,35 +30,61 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="image_btn" type="Button" parent="VBoxContainer" unique_id=118189239]
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer" unique_id=1038009391]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control" type="Control" parent="HBoxContainer/VBoxContainer2" unique_id=1946116928]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Control3" type="Control" parent="HBoxContainer/VBoxContainer2" unique_id=2002177492]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="image_btn" type="Button" parent="HBoxContainer/VBoxContainer2" unique_id=118189239]
 texture_filter = 1
 layout_mode = 2
+size_flags_horizontal = 3
 size_flags_vertical = 3
-size_flags_stretch_ratio = 18.39
+size_flags_stretch_ratio = 0.83
+theme_override_styles/normal = SubResource("StyleBoxEmpty_224sj")
 icon = ExtResource("1_r7a2n")
 expand_icon = true
 
-[node name="item_name" type="RichTextLabel" parent="VBoxContainer" unique_id=26765321]
+[node name="Control2" type="Control" parent="HBoxContainer/VBoxContainer2" unique_id=854059017]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=891616968]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="item_name" type="RichTextLabel" parent="HBoxContainer/VBoxContainer" unique_id=26765321]
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.41
-theme = ExtResource("3_224sj")
 theme_override_font_sizes/normal_font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_o17d2")
 text = "Example
 "
 fit_content = true
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="item_price" type="RichTextLabel" parent="VBoxContainer" unique_id=1718669951]
+[node name="item_price" type="RichTextLabel" parent="HBoxContainer/VBoxContainer" unique_id=1718669951]
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.41
 theme_override_font_sizes/normal_font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_qo484")
 text = "Example
 "
 fit_content = true
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[connection signal="pressed" from="VBoxContainer/image_btn" to="." method="_on_image_btn_pressed"]
+[connection signal="pressed" from="HBoxContainer/VBoxContainer2/image_btn" to="." method="_on_image_btn_pressed"]

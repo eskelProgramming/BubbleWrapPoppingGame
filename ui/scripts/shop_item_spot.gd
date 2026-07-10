@@ -2,10 +2,9 @@ class_name ShopItemSpot
 
 extends Control
 
-@onready var image_btn: Button = $VBoxContainer/image_btn
-@onready var item_name: RichTextLabel = $VBoxContainer/item_name
-@onready var item_price: RichTextLabel = $VBoxContainer/item_price
-
+@onready var image_btn: Button = $HBoxContainer/VBoxContainer2/image_btn
+@onready var item_name: RichTextLabel = $HBoxContainer/VBoxContainer/item_name
+@onready var item_price: RichTextLabel = $HBoxContainer/VBoxContainer/item_price
 
 @export var item_type: ShopManager.ITEM_TYPES
 
