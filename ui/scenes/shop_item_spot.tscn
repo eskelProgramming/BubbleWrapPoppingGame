@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bi53vvib86glj" path="res://bubble/assets/bubble.png" id="1_r7a2n"]
 [ext_resource type="Script" uid="uid://ueugo21aphfk" path="res://ui/scripts/shop_item_spot.gd" id="1_wpy4o"]
+[ext_resource type="Theme" uid="uid://bcq7fwer44442" path="res://ui/themes/shop_label.tres" id="3_224sj"]
 
 [node name="shop_item_spot" type="Control" unique_id=1254462752 groups=["shop_item_spots"]]
 layout_mode = 3
@@ -34,6 +35,7 @@ expand_icon = true
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 0.41
+theme = ExtResource("3_224sj")
 theme_override_font_sizes/normal_font_size = 35
 text = "Example
 "
