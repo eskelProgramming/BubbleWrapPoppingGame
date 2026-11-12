@@ -1,6 +1,6 @@
 extends Level
 
-@onready var money_label: RichTextLabel = $Panel/VBoxContainer/Labels/money_label
+@onready var money_label: RichTextLabel = $Panel/Labels/money_label
 var money = 0
 
 # Called when the node enters the scene tree for the first time.
