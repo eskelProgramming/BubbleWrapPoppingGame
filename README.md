@@ -13,5 +13,7 @@ As a solo dev going back to school for my masters degree, I do not have a difini
 - Native [Archipelago Multi-Game Randomizer](https://github.com/ArchipelagoMW/Archipelago) support.
 - Sandbox/Endless mode
 
+Project Progress can be tracked [here.](https://github.com/users/eskelProgramming/projects/2)
+
 ## THIS IS A WORK IN PROGRESS
 While I am excited to work on this project, it is still very early in development. I have not even come up with a name yet, so many parts of this are subject to change. I am excited to share more details as I progress!
