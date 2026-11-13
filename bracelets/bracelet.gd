@@ -9,4 +9,9 @@ extends Node
 @export var rarity: RARITY = RARITY.COMMON
 @export_multiline var description: String
 
+@onready var sprite_2d: Sprite2D = $Sprite2D
+
 enum RARITY {COMMON, UNCOMMON, RARE, EPIC, GOD}
+
+func _ready():
+	sprite_2d.texture = load(image_location)

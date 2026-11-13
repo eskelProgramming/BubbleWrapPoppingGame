@@ -12,3 +12,5 @@ grow_vertical = 2
 script = ExtResource("1_7vey0")
 image_location = "uid://7xkifgj165ah"
 pop_chance = 1.1
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=272140541]
