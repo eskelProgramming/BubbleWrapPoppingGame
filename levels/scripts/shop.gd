@@ -7,11 +7,12 @@ var money = 0
 func _ready() -> void:
 	for sis: ShopItemSpot in get_tree().get_nodes_in_group("shop_item_spots"):
 		for si in ShopManager.shop_items:
-			if sis.item_type == si.item_category:
-				sis.set_item(si)
-			else:
-				sis.reset_item()
-				
+			if si.base_item_price >= MoneyManager.max_money:
+				if sis.item_type == si.item_category:
+					sis.set_item(si)
+				else:
+					sis.reset_item()
+					
 	
 	MoneyManager.add_money(ScoreManager.curr_views)
 	money = MoneyManager.curr_money
@@ -23,4 +24,4 @@ func _process(delta: float) -> void:
 		money_label.text = "Money: %s" % MoneyManager.curr_money
 
 func _on_exit_shop_pressed() -> void:
-	LevelManager.load_level(0)
+	LevelManager.load_level(2)

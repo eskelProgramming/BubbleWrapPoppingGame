@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dvsmemdy104ji"]
 
 [ext_resource type="Script" uid="uid://eaev8ey7c6cf" path="res://bracelets/bracelet.gd" id="1_7vey0"]
+[ext_resource type="Texture2D" uid="uid://7xkifgj165ah" path="res://bracelets/bracelet_base.png" id="2_u8bu5"]
 
 [node name="bracelet" type="Control" unique_id=278596630]
 layout_mode = 3
@@ -14,3 +15,4 @@ image_location = "uid://7xkifgj165ah"
 pop_chance = 1.1
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=272140541]
+texture = ExtResource("2_u8bu5")

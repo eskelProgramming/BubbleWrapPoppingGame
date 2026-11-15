@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://c53udvxsbltl8"]
+
+[ext_resource type="Script" uid="uid://dgrv0rsp5gmkb" path="res://ui/scripts/item_spot.gd" id="1_ac770"]
+
+[node name="item_spot" type="Control" unique_id=812964844]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ac770")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1912283109]
+layout_mode = 0
+offset_right = 225.0
+offset_bottom = 220.0
+
+[node name="Button" type="Button" parent="PanelContainer" unique_id=2100433435]
+layout_mode = 2
+
+[node name="label" type="RichTextLabel" parent="PanelContainer" unique_id=1762082032]
+layout_mode = 2
