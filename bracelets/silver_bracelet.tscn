@@ -5,6 +5,6 @@
 [node name="silver_bracelet" type="Node" unique_id=354858683]
 script = ExtResource("1_qlhpo")
 image_location = "uid://1yaf3mt4qb5j"
-view_multi = 1.25
-description = "Gives 25% more views"
+pop_chance = 1.1
+description = "Gives +10% Pop Chance"
 metadata/_custom_type_script = "uid://eaev8ey7c6cf"
