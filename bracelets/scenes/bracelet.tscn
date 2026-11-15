@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dvsmemdy104ji"]
 
-[ext_resource type="Script" uid="uid://eaev8ey7c6cf" path="res://bracelets/bracelet.gd" id="1_7vey0"]
-[ext_resource type="Texture2D" uid="uid://7xkifgj165ah" path="res://bracelets/bracelet_base.png" id="2_u8bu5"]
+[ext_resource type="Script" uid="uid://eaev8ey7c6cf" path="res://bracelets/scripts/bracelet.gd" id="1_7vey0"]
+[ext_resource type="Texture2D" uid="uid://7xkifgj165ah" path="res://bracelets/assets/bracelet_base.png" id="2_u8bu5"]
 
 [node name="bracelet" type="Control" unique_id=278596630]
 layout_mode = 3

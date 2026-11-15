@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7xkifgj165ah"
-path="res://.godot/imported/bracelet_base.png-0802a0820bfb91f0af520d0d7bc3c093.ctex"
+path="res://.godot/imported/bracelet_base.png-f5d1b2a0ac60154ba54ec6b7367770ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bracelets/bracelet_base.png"
-dest_files=["res://.godot/imported/bracelet_base.png-0802a0820bfb91f0af520d0d7bc3c093.ctex"]
+source_file="res://bracelets/assets/bracelet_base.png"
+dest_files=["res://.godot/imported/bracelet_base.png-f5d1b2a0ac60154ba54ec6b7367770ae.ctex"]
 
 [params]
 

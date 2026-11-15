@@ -2,8 +2,9 @@ class_name ItemSpot
 
 extends Control
 
-@onready var image_button: Button = $Button
-@onready var label: RichTextLabel = $label
+@onready var image_button: Button = $VBoxContainer/Button
+@onready var label: RichTextLabel = $VBoxContainer/label
+
 
 var item: Object
 
