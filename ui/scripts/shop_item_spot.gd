@@ -28,7 +28,7 @@ func _on_image_btn_pressed() -> void:
 	if item_set:
 		image_btn.disabled = true
 		if MoneyManager.attempt_spend_money(si.base_item_price):
-			InventoryManager.inventory.append(si)
+			InventoryManager.add_item(si.item_name)
 			reset_item()
 		else:
 			image_btn.disabled = false

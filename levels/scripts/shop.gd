@@ -24,4 +24,7 @@ func _process(delta: float) -> void:
 		money_label.text = "Money: %s" % MoneyManager.curr_money
 
 func _on_exit_shop_pressed() -> void:
-	LevelManager.load_level(2)
+	if BraceletManager.bracelet_inventory.size() > 0:
+		LevelManager.load_level(2)
+	else:
+		LevelManager.load_level(0)

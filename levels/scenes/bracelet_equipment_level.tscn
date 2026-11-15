@@ -23,31 +23,31 @@ position = Vector2(1269.0001, 869)
 scale = Vector2(1.3770833, 1)
 texture = ExtResource("2_57y2d")
 
-[node name="item_spot" parent="." unique_id=812964844 instance=ExtResource("2_ccfjx")]
+[node name="item_spot" parent="." unique_id=812964844 groups=["bracelet_spots"] instance=ExtResource("2_ccfjx")]
 offset_left = 319.0
 offset_top = 352.005
 offset_right = 319.0
 offset_bottom = 352.005
 
-[node name="item_spot2" parent="." unique_id=1826352514 instance=ExtResource("2_ccfjx")]
+[node name="item_spot2" parent="." unique_id=1826352514 groups=["bracelet_spots"] instance=ExtResource("2_ccfjx")]
 offset_left = 586.0
 offset_top = 352.005
 offset_right = 586.0
 offset_bottom = 352.005
 
-[node name="item_spot3" parent="." unique_id=397860928 instance=ExtResource("2_ccfjx")]
+[node name="item_spot3" parent="." unique_id=397860928 groups=["bracelet_spots"] instance=ExtResource("2_ccfjx")]
 offset_left = 876.0
 offset_top = 352.005
 offset_right = 876.0
 offset_bottom = 352.005
 
-[node name="item_spot4" parent="." unique_id=1171120759 instance=ExtResource("2_ccfjx")]
+[node name="item_spot4" parent="." unique_id=1171120759 groups=["bracelet_spots"] instance=ExtResource("2_ccfjx")]
 offset_left = 1152.0
 offset_top = 352.005
 offset_right = 1152.0
 offset_bottom = 352.005
 
-[node name="item_spot5" parent="." unique_id=1770550039 instance=ExtResource("2_ccfjx")]
+[node name="item_spot5" parent="." unique_id=1770550039 groups=["bracelet_spots"] instance=ExtResource("2_ccfjx")]
 offset_left = 1463.0
 offset_top = 352.005
 offset_right = 1463.0

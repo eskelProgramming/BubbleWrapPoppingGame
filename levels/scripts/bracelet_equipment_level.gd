@@ -5,7 +5,8 @@ func _ready() -> void:
 	var temp_bracelet_inventory = BraceletManager.bracelet_inventory
 	for item_spot: ItemSpot in get_tree().get_nodes_in_group("bracelet_spots"):
 		var item = temp_bracelet_inventory.pop_front()
-		item_spot.set_item(item)
+		if item is Bracelet:
+			item_spot.set_item(item)
 
 
 
