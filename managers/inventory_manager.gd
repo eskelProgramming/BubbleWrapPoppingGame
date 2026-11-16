@@ -1,6 +1,6 @@
 extends Node
 
-var inventory: Array[Object]
+var inventory: Array[String]
 
 func add_item(item):
 	if item in BraceletManager.all_bracelets: 

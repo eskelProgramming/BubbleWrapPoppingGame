@@ -1,24 +1,37 @@
 [gd_scene format=3 uid="uid://c53udvxsbltl8"]
 
 [ext_resource type="Script" uid="uid://dgrv0rsp5gmkb" path="res://ui/scripts/item_spot.gd" id="1_ac770"]
+[ext_resource type="Texture2D" uid="uid://7xkifgj165ah" path="res://bracelets/assets/bracelet_base.png" id="2_yfng7"]
 
 [node name="item_spot" type="Control" unique_id=812964844 groups=["item_spot"]]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_right = 0.124000005
+anchor_bottom = 0.22600001
+offset_right = -65.08002
+offset_bottom = -51.532013
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ac770")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=925413968]
-layout_mode = 0
-offset_right = 225.0
-offset_bottom = 220.0
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.71000004
+offset_right = -2.0
+offset_bottom = -0.030014038
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
 
 [node name="Button" type="Button" parent="VBoxContainer" unique_id=2100433435]
+texture_filter = 1
 layout_mode = 2
 size_flags_vertical = 3
+icon = ExtResource("2_yfng7")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
 
 [node name="label" type="RichTextLabel" parent="VBoxContainer" unique_id=1762082032]
 layout_mode = 2
