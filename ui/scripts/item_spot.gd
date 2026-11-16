@@ -16,4 +16,3 @@ func set_item(item: Object):
 
 func _on_button_pressed() -> void:
 	item.equipped = !item.equipped
-	print(item.equipped)

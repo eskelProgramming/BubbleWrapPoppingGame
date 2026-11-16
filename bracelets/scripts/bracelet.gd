@@ -25,3 +25,13 @@ func _init(item_name: String, image_location: String, pop_chance: float, score_m
 	self.score_multi = score_multi
 	self.store_discount = store_discount
 	self.rarity = rarity
+
+func add_buffs():
+	PopManager.pop_chance += pop_chance
+	ScoreManager.curr_multi += score_multi
+	#TODO: Add store discount
+
+func remove_buffs():
+	PopManager.pop_chance -= pop_chance
+	ScoreManager.curr_multi -= score_multi
+	#TODO: Add store discount
