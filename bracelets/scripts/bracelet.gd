@@ -9,6 +9,7 @@ var score_multi: float = 1.0
 var store_discount: float = 1.0
 var rarity: RARITY = RARITY.COMMON
 var description: String
+var equipped = false
 
 @onready var sprite_2d: Sprite2D = $Sprite2D
 
